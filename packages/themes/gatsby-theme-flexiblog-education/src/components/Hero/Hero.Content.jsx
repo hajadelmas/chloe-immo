@@ -28,7 +28,7 @@ export default () => (
   <>
     <Section>
       <Heading variant='h2' sx={styles.heading}>
-        Ensemble main dans la main, concrétions votre transaction à <span>coût</span> sûr !
+        Ensemble main dans la main, concrétions votre transaction à <span>coût</span> sûr! 🚀
       </Heading>
       {/* <Heading variant='h3' sx={styles.running}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -36,11 +36,11 @@ export default () => (
       </Heading> */}
     </Section>
     <Box variant='buttons.group' sx={styles.buttons}>
-      <Button as={Link} to='/'>
-        Nos biens
+      <Button as={Link} to='/category/les-biens/'>
+        Les biens
       </Button>
-      <Button variant='white' as={Link} to='/authors'>
-        Blog
+      <Button variant='white' as={Link} to='/'>
+        Télécharger le guide !
       </Button>
     </Box>
   </>

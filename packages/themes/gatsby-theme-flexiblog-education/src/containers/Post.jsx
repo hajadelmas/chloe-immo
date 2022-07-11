@@ -66,7 +66,7 @@ const Post = ({
           <Divider />
           {post.category && (
             <CardList
-              title='Related Posts'
+              title='Articles similaires'
               nodes={relatedPosts}
               variant={['horizontal-md']}
               columns={[1, 2, 2, 2]}

@@ -10,7 +10,7 @@ const styles = {
     ml: 3
   },
   heading: {
-    color: `alpha`
+    color: `yellowImmo`
   },
   running: {
     color: `omegaDark`,
@@ -27,6 +27,6 @@ export default () => (
       "When I got out of university, I couldn't get a job. But now, I have a job
       and I am in love with computer science because of Academy."
     </Heading>
-    <Heading variant='h3'>Aubree Joyce</Heading>
+    <Heading variant='h3'>Chloé Carmona</Heading>
   </Box>
 )

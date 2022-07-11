@@ -14,10 +14,8 @@ const PageContact = props => (
     <Stack>
       <Main>
         <PageTitle
-          header="Let's Connect"
-          subheader='FlexiBlog theme comes with a pre-made contact form component.
-					You can integrate this form with serverless services such as Formspree, Getform,
-					FormKeep and others to receive form submissions via email.'
+          header="Restons connectés 🚀"
+          subheader='Cloé Carmona se fera un plaisir de vous recontacter pour des conseils de vente ou des renseignements de biens sur le site '
         />
         <Divider />
         <ContactForm />

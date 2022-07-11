@@ -28,8 +28,8 @@ const PoweredByGatsby = () => (
     rel='noopener'
     sx={styles.link}
   >
-    Powered By
-    {gatsbySVG && <SVG src={gatsbySVG} />}
+    Propulsé par Studio Haja
+    {/* {gatsbySVG && <SVG src={gatsbySVG} />} */}
   </Link>
 )
 

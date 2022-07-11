@@ -6,10 +6,15 @@ import {
   FaFacebook,
   FaEnvelope,
   FaLink,
-  FaGlobe
+  FaGlobe,
+  FaYoutube
 } from 'react-icons/fa'
 
 export default {
+  youtube: {
+    Icon: FaYoutube,
+    color: '#C4302B'
+  },
   default: {
     Icon: FaLink,
     color: '#718096'

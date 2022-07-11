@@ -23,6 +23,7 @@ module.exports = {
         }
       }
     }
+    
   ],
   // Customize your site metadata:
   siteMetadata: {
@@ -37,7 +38,7 @@ module.exports = {
     //Site Social Media Links
     social: [
       {
-        name: 'Github',
+        name: 'Youtube',
         url: 'https://github.com/gatsbyjs'
       },
       {
@@ -86,18 +87,18 @@ module.exports = {
         ]
       },
       {
-        title: 'Legal Stuff',
+        title: 'Legal',
         items: [
           {
-            name: 'Privacy Notice',
+            name: 'Tarifs',
             slug: '/'
           },
           {
-            name: 'Cookie Policy',
+            name: 'Cookies',
             slug: '/'
           },
           {
-            name: 'Terms Of Use',
+            name: 'Règles utilisations',
             slug: '/'
           }
         ]

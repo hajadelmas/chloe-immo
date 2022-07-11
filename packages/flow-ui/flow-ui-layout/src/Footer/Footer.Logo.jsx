@@ -21,7 +21,7 @@ export const FooterLogo = () => (
       <HeaderLogo grayscale />
     </Box>
     <Box sx={styles.copyright}>
-      © {new Date().getFullYear()}, All Rights Reserved.
+      © {new Date().getFullYear()}, Tous droits réservés.
     </Box>
     <Box>
       <PoweredByGatsby />

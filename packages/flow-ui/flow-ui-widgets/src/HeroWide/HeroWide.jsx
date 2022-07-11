@@ -18,7 +18,15 @@ const styles = {
   rightColumn: {
     display: [`none`, null, `block`],
     flexBasis: `1/2`
-  }
+  },
+  videoEmbed : {
+    width: '100%',
+    height: '500px'
+  },
+  // videoBox: {
+  //   position: 'relative',
+  //   width: '100%'
+  // }
 }
 
 const LeftColumn = ({ children, sx, ...props }) => (
@@ -51,6 +59,9 @@ const Wrapper = ({ children, ...props }) => {
     <>
       <Flex sx={{ ...styles.wrapper, ...props.sx }}>{heroContent}</Flex>
       {OverlayContent}
+      <Box styles={styles.videoBox}>
+        <iframe style={styles.videoEmbed} src="https://www.youtube.com/embed/ETtFy8QSJB4"></iframe>
+      </Box>
     </>
   )
 }

@@ -41,12 +41,12 @@ const logoQuery = graphql`
       }
     }
     logoDark: file(
-      absolutePath: { regex: "/logo-dark.(jpeg|jpg|gif|png)/" }
+      absolutePath: { regex: "/logo1-dark.(jpeg|jpg|gif|png)/" }
       sourceInstanceName: { eq: "asset" }
     ) {
       childImageSharp {
         gatsbyImageData(
-          width: 150
+          width: 200
           layout: CONSTRAINED
           quality: 100
           placeholder: NONE

@@ -19,7 +19,7 @@ export const FooterSocial = () => {
   return (
     <>
       <Heading variant='h4' as='p' sx={styles.navHeader}>
-        Social Media
+        Social
       </Heading>
       <Navigation
         items={attachSocialIcons(social)}
