@@ -8,10 +8,11 @@ const styles = {
     position: `relative`,
     zIndex: 2,
     pt: 4,
-    pb: 5
+    pb: 5,
+    height: '70vh'
   },
   leftColumn: {
-    flexBasis: `2/3`,
+    flexBasis: `1/3`,
     flex: 1,
     textAlign: [`center`, null, `left`]
   },
@@ -21,7 +22,7 @@ const styles = {
   },
   videoEmbed : {
     width: '100%',
-    height: '500px'
+    height: '600px'
   },
   // videoBox: {
   //   position: 'relative',

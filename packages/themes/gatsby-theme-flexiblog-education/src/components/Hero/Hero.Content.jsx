@@ -9,8 +9,9 @@ import Section from '@components/Section'
 
 const styles = {
   heading: {
-    fontSize: '2rem',
+    fontSize: '2.5rem',
     mb: 4,
+    // width: '85%',
     span: {
       color: `yellowImmo`
     }
